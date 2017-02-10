@@ -2,21 +2,21 @@
 DFID for AI homework
 
 # Initialize the tree list in main
-/*
-  	1
-  	|-	2
-  	|	|-	4
-  	|	|	|-	7
-  	|	|	
-  	|	|-	5
-  	|		|-	8
-  	|		|-	9
-  	|-	3
-  		|-	6
-  			|-	10
-  			|-	11
-  
- */
+#
+# 	1
+#  	|-	2
+#  	|	|-	4
+#  	|	|	|-	7
+#  	|	|	
+#  	|	|-	5
+# 	|		|-	8
+#  	|		|-	9
+#  	|-	3
+#  		|-	6
+#  			|-	10
+#  			|-	11
+#  
+
 
 Start Node is "1"
 The goal that we find is "9"
