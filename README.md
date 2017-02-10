@@ -143,7 +143,6 @@ public class NewDFID {
 	public void dls(TreeNode node, String goal, int depth)
 	{
 		//System.out.println(depth);
-		
 		//System.out.println("value:"+node.getValue());
 		if (depth == 0 && node.getValue().contains(goal)){
 			//set maxDepth to false if the node has children
