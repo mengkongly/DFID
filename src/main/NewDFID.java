@@ -6,8 +6,7 @@ public class NewDFID {
 	boolean maxDepth = false;
 	List<String> results = new ArrayList<String>();
 	int i=1;
-	public List<String> dfid(TreeNode t, String goal)
-	{
+	public List<String> dfid(TreeNode t, String goal){
 		int depth = 0;
 		while (!maxDepth)
 		{

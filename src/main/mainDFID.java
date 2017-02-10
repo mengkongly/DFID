@@ -1,5 +1,4 @@
 package main;
-import java.util.ArrayList;
 import java.util.List;
 
 import main.TreeNode;
@@ -35,8 +34,27 @@ public class mainDFID {
 		n1.addChildren(n2);
 		n1.addChildren(n3);
 		
+		/*
+		 * 	1
+		 * 	|-	2
+		 * 	|	|-	4
+		 * 	|	|	|-	7
+		 * 	|	|	
+		 * 	|	|-	5
+		 * 	|		|-	8
+		 * 	|		|-	9
+		 * 	|-	3
+		 * 		|-	6
+		 * 			|-	10
+		 * 			|-	11
+		 * 
+		 */
+		
+		
 		NewDFID dfid	=	new NewDFID();
 		List<String> result	=	dfid.dfid(n1, "9");
+		
+		
 		
 		System.out.println("Result:"+result);
 	}
