@@ -2,20 +2,37 @@
 DFID for AI homework
 
 # Initialize the tree list in main
-#
-# 	1
-#  	|-	2
-#  	|	|-	4
-#  	|	|	|-	7
-#  	|	|	
-#  	|	|-	5
-# 	|		|-	8
-#  	|		|-	9
-#  	|-	3
-#  		|-	6
-#  			|-	10
-#  			|-	11
-#  
+<ul>
+<li>1
+	<ul>
+		<li>2
+			<ul>
+				<li>4
+					<ul>
+					<li>7</li>
+					</ul>
+				</li>
+				<li>5
+					<ul>
+					<li>8</li>
+					<li>9</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>3
+			<ul>
+				<li>6
+					<ul>
+					<li>10</li>
+					<li>11</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li>
+</ul>
 
 
 Start Node is "1"
