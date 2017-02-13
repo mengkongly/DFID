@@ -1,5 +1,6 @@
 package main;
 import java.util.List;
+import java.util.Scanner;
 
 import main.TreeNode;
 
@@ -52,9 +53,13 @@ public class mainDFID {
 		
 		
 		NewDFID dfid	=	new NewDFID();
-		List<String> result	=	dfid.dfid(n1, "9");
 		
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("Please enter your goal node : ");
+		String goal = input.next(); // getting a String value
 		
+		String result	=	dfid.dfid(n1, goal);
 		
 		System.out.println("Result:"+result);
 	}
